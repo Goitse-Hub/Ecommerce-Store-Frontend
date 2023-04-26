@@ -1,0 +1,80 @@
+
+
+<div>
+    <h1>Your Cart</h1>
+    <br>
+
+    <div>
+        <table class="table">
+            <tr>
+                <th *ngFor = "let column of headers">
+                    {{column}}
+                  </th>
+              </tr>
+              <tr *ngFor = "let row of rows">
+                <td *ngFor = "let column of headers">
+                  {{rows}}
+                </td>
+            </tr>
+               
+            <!-- <thead>
+              <tr>
+                <th *ngFor = "let column of headers">
+                    {{column}}
+                  </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let row of rows">
+                    <td *ngFor = "let column of headers">
+                      {{rows[column]}}
+                    </td>
+                </tr> -->
+              <!-- <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td colspan="2"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td colspan="2"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td colspan="2"></td>
+                <td></td>
+              </tr> -->
+
+              
+              <!-- <tr>
+                <th scope="row"></th>
+                <td colspan="2">
+                    <button type="button" class="btn btn-outline-primary"  routerLink="/Products" >Continue Shopping</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-primary">Proceed To Checkout</button>
+                </td>
+              </tr> -->
+            <!-- </tbody> -->
+          </table>
+    </div>
+</div>
+
